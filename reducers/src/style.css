@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    display: block !important;
+}
+
+.cont{
+    text-align: center;
+}
+
+.box{
+    padding: 1rem;
+    margin:1rem;
+    border: 2px red solid;
+    
+
+    
+}
+
+.productos{
+    /* display: flex;
+    justify-content: space-around; */
+    border: 2px red solid;
+}
+
+
+.grid-responsive{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr) );
+    gap: 1rem;
+}

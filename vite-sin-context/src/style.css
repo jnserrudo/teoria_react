@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(4, 4, 66) !important; 
+}
+
+#root,table{
+    color: white;
+}
+.foto{
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+}
+table{
+    box-shadow: rgba(247, 243, 243, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(226, 221, 221, 0.09) 0px -3px 5px;
+    margin: 25px;
+    border-radius: 50px;
+    padding: 5px;
+    
+
+}
+.fila{
+    height: 100px;
+}
+.btn_acciones{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont_tabla{
+    text-align: center;
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.mensaje{
+    padding: 1rem;
+    text-align: center;
+    background-color: red;
+}
+.ok{
+    background-color: green;
+}
+
+.input input{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
